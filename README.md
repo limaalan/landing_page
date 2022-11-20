@@ -1,2 +1,2 @@
-# landing_page
+# Landing page model
 A landing page for a fake company
