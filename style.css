@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: radial-gradient(39.27% 123.65% at 78.41% 30.09%, #BBFF80 35.32%, #E5FC6F 79.51%)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap:32px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: Sarala;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
