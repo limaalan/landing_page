@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
+:root{
+    --primario:#BBFF80;
+    --secundario:#E5FC6F;
+    --terciario:#00a2ff;
+    --cor-texto-primario:#000000;
+    --cor-texto-secundario: #808080;
+}
+
+
+
 *{
     margin: 0 ;
     padding: 0;
@@ -9,7 +19,7 @@
 
 body {
     font-size: 100%;
-    background: radial-gradient(39.27% 123.65% at 78.41% 30.09%, #BBFF80 35.32%, #E5FC6F 79.51%)
+    background: radial-gradient(39.27% 123.65% at 78.41% 30.09%, var(--primario) 35.32%, var(--secundario) 79.51%)
 }
 
 .cabecalho{
@@ -81,7 +91,7 @@ body {
     font-family: Sarala;
     font-weight: 400;
     font-size: 24px;
-    color:#000000
+    color:var(--cor-texto-primario)
 }
 
 .conteudo-princial-imagem{
@@ -89,7 +99,7 @@ body {
 }
 
 .conteudo-princial-escrito-botao{
-    background-color: antiquewhite;
+    background-color: #00a2ff;
     width: 180px;
     height: 60px;
     border: none;
@@ -104,7 +114,7 @@ body {
 }
 
 .conteudo-princial-escrito-botao:hover{
-    background-color: rgba(236,214,196,0.53);
+    background-color: rgba(0, 162, 255,0.5)
 }
 
 .conteudo-secundario{
