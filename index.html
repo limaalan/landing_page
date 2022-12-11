@@ -1,68 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GAnime - Anime streaming service ">
-    <title>Landing page - Fake anime streaming service </title>
-    <link rel="stylesheet" type = "text/css" href="style.css"> 
-</head>
-<body>
-    <header class ="cabecalho">
-        <img class = "cabecalho-imagem"src="/img/full_logo.png" alt = "Logo da comunidade"> 
-        <nav class = "cabecalho-menu">
-            <a class = "cabecalho-menu-item" href="omega">Programas</a>
-            <a class = "cabecalho-menu-item" href="omega">Planos</a>
-            <a class = "cabecalho-menu-item" href="omega">Login</a>
-            <div class = "cabecalho-busca" >
-                <form >
-                    <input class = "cabecalho-busca-texto" type="text" name ="nome" id = "nome" placeholder="ex:Naruto">
-                </form>
-                <img class = "cabecalho-busca-icone"src="/img/search_icon.png">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuu - Anime for you </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper">
+        
 
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+              <h3>Yuu </h3>
             </div>
-        </nav>
-    </header>
-    
-    <main class = "conteudo">
-        <section class = "conteudo-princial">
-            <div class = "conteudo-princial-escrito">
-                <img class = "conteudo-princial-imagem" src="/img/logo.png" alt = "Imagem do bot">
-                <h1 class = "conteudo-princial-escrito-titulo">Yuu</h1>
-                <h2 class = "conteudo-princial-escrito-subtitulo">Prepare-se para a temporada de anime 
-                    mais eletrizante até agora! Mega hits de anime estão de volta, além de novos favoritos.
-                     Todos na Crunchyroll.</h2>
-                <button class = "conteudo-princial-escrito-botao">Seja Membro</button>
+            <div class="links">
+              <ul>
+                <li><a href="#">Anime List</a></li>
+                <li><a href="#">Manga</a></li>
+                <li><a href="#">Merchandising</a></li>
+                <li><a href="#" class="btn">Log in </a></li>
+              </ul>
             </div>
-        </section>
-        <section class = "conteudo-secundario">
-            <h3 class = "conteudo-secundario-titulo">O que fazemos por você?</h3>
-            <p class = "conteudo-secundario-paragrafo">1. Serviço de qualidade</p>
-            <p class = "conteudo-secundario-paragrafo">2. Em qualquer lugar</p>
-            <p class = "conteudo-secundario-paragrafo">3. Sei lá<strong> algo em negrito</strong></p>
-        </section>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>New season is here !</h1>
+                <h1>Start watching now.</h1>
+              </div>
+              <p class="text">
+                Get ready for the most electrifying anime season ever! Anime mega hits are back, plus new favorites. You can watch everything on Yuu.
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Get started</a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./img/anime.png" alt="anime Image" class="anime" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <footer class="rodape" >
-        <div class ="rodape-sobre">
-            <p class = "rodape-items" > Sobre </p>
-            <p class = "rodape-items" > Termos de Uso</p>
-            <p class = "rodape-items" > Política de Privacidade</p>
-        </div>
-        <div class = "rodape-links">
-            <a href="fb">
-                <img class ="rodape-link" src="img/fb_logo.png" alt="Facebook">
-            </a>
-            <a href="ig">
-                <img class ="rodape-link" src="img/ig_logo.png" alt = "Instagram">
-            </a>
-            <a href="yt">
-                <img class ="rodape-link" src="img/yt_logo.png" alt = "Youtube">
-            </a>
-            <div>
-                <img class="rodape-imagem" src="img/full_logo.png">
-            </div>
-        </div>
-    </footer>
-</body>
+    <!-- JS  -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
